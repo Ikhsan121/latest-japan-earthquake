@@ -1,0 +1,22 @@
+[project]
+name = "latestearthquake-japan"
+version = "0.0.6"
+authors = [
+  { name="M Ikhsan Arif", email="ikhsanarif211@gmail.com" },
+]
+description = "This package will retrieve latest earthquake from Japan Meteorological Agency"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "selenium",
+    'pandas',
+    "matplotlib",
+]
+[project.urls]
+Homepage = "https://github.com/Ikhsan121/latest-japan-earthquake"
+Issues = "https://github.com/Ikhsan121/latest-japan-earthquake"
